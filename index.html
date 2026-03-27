@@ -21,7 +21,7 @@
         </ul>
     </nav>
     <main>
-        <section id="about">
+        <section id="about" class="about">
             <h2>About the Event</h2>
             <p>TechCon 2025 brings together leading minds in programming,
                 tech, and innovation. Join us for a day of insightful talks, hands-on workshops,
@@ -55,7 +55,7 @@
                     </tr>
                     <tr>
                         <td><time datetime="2:00"></time>2:00 PM</td>
-                        <td>Exploring the Future of Cloud Computing</td>
+                        <td>Exploring the Future of Speaking Two languages</td>
                         <td>Dr.Shitty(South Indian)</td>
                     </tr>
                 </tbody>
@@ -65,14 +65,19 @@
             <h2>Meet the Speakers</h2>
             <div class="speaker-grid">
                 <article class="speaker-card">
+                    <img src="./images/disney-s-the-adventures-of-tintin-1940-s-fan-casting-poster-560642-medium-979956563.jpg"
+                        alt="Byomesh Bakshi Profile pic">
                     <h3>Byomesh Bakshi</h3>
                     <p>Wannabe Tintin</p>
                 </article>
                 <article class="speaker-card">
+                    <img src="./images/oar2-2.jpg" alt="Dr. Shitty Profile pic">
                     <h3>Dr. Shitty</h3>
                     <p>Bilingual Expert</p>
                 </article>
                 <article class="speaker-card">
+                    <img src="./images/8r81dk38_varun-dhawan_625x300_15_January_26-326750958.jpg"
+                        alt="Mr. Mathondkar Profile pic">
                     <h3>Mr. Mathondkar</h3>
                     <p>Competitive Sperm Doner</p>
                 </article>
@@ -80,17 +85,19 @@
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <form>
+            <form id="contact-form">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required placeholder="Email@example.com"><br><br>
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <textarea id="message" name="message" rows="4" required minlength="10"></textarea><br><br>
                 <button type="submit">Send</button>
             </form>
         </section>
+        <button id="backtoTop" title="Go to Top">↑</button>
     </main>
+    <script src="script.js"></script>
     <footer>
         <p>&copy; 2026 Arjun Sharma. All rights reserved.</p>
     </footer>
