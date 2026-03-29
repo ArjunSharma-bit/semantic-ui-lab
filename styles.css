@@ -192,3 +192,47 @@ button:hover {
     cursor: pointer;
     font-size: larger;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 15% auto;
+    padding: 26px;
+    border: 1px solid var(--accent);
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    animation: modalFadeIn 0.4s ease;
+}
+
+.modal-icon {
+    font-size: 3rem;
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 12px;
+    top: 1px;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--text-dim);
+}
+
+#modalCloseBtn {
+    margin-top: 24px;
+    width: 100%;
+}

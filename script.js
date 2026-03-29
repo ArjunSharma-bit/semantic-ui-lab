@@ -1,5 +1,8 @@
-const contactfrom = document.getElementById('contact-form')
+const contactform = document.getElementById('contact-form')
 const topBtn = document.getElementById('backtoTop');
+const modal = document.getElementById("thank-you-modal");
+const span = document.getElementsByClassName("close-btn")[0];
+const modalCloseBtn = document.getElementById("modalCloseBtn");
 
 window.onscroll = function () {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -15,21 +18,29 @@ topBtn.addEventListener("click", () => {
     })
 })
 
-
-contactfrom.addEventListener('submit', function (event) {
+contactform.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    const formData = new FormData(this)
-    const name = formData.get('name')
-    const email = formData.get('email')
-    const message = formData.get('message')
+    const formData = new FormData(this);
+    const name = formData.get('name');
+    const email = formData.get('email');
 
-    console.log("New Message Received");
-    console.log("Name:", name)
-    console.log("Email:", email)
-    console.log("Message:", message)
+    document.getElementById('username').textContent = name;
+    document.getElementById('userEmail').textContent = email;
 
-    alert(`Thanks for reaching out. ${name}! We'll Contact you at ${email}`);
+    modal.style.display = "block";
 
     this.reset();
-})
+});
+
+[span, modalCloseBtn].forEach(btn => {
+    btn.onclick = function () {
+        modal.style.display = "none";
+    }
+});
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
