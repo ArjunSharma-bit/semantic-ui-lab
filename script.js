@@ -3,6 +3,8 @@ const topBtn = document.getElementById('backToTop');
 const modal = document.getElementById("thank-you-modal");
 const span = document.querySelector(".close-btn");
 const modalCloseBtn = document.getElementById("modalCloseBtn");
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
 
 window.onscroll = function () {
     if (topBtn) {
@@ -20,6 +22,25 @@ topBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+const currentTheme = localStorage.getItem('theme');
+if (currentTheme === 'light') {
+    body.classList.add('light-theme');
+    themeToggle.textContent = '☀️'
+}
+
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+
+    let theme = 'dark';
+    if (body.classList.contains('light-theme')) {
+        theme = 'light';
+        themeToggle.textContent = '☀️';
+    } else {
+        themeToggle.textContent = '🌙';
+    }
+    localStorage.setItem('theme', theme)
+})
 
 // FORM & MODAL LOGIC
 contactform.addEventListener('submit', function (event) {
