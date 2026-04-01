@@ -79,7 +79,7 @@ app/
 ├── styles.css             # Main stylesheet with CSS Variables
 ├── script.js              # Theme logic, Modal, and Scroll behavior
 └── index.html             # Semantic HTML structure
-
+```
 ### What I Learned
 
     How to use CSS Variables to manage complex themes efficiently.
