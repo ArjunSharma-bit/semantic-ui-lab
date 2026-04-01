@@ -1,13 +1,13 @@
 ## Table of contents
--[Screenshot](#screenshot)
--[Features](#features)
--[Link](#links)
--[Build](#built-with)
--[Screenshots](#screenshots)
--[Getting-Started](#getting-started)
--[Structure](#project-structure)
--[Learning](#what-i-learned)
--[Author](#author)
+- [Screenshot](#screenshot)
+- [Features](#features)
+- [Link](#links)
+- [Build](#built-with)
+- [Screenshots](#screenshots)
+- [Getting-Started](#getting-started)
+- [Structure](#project-structure)
+- [Learning](#what-i-learned)
+- [Author](#author)
 
 # Base-test-home-page
 this repo was made mainly just for learning and getting hands on experience. this event is fictional and made for fun.
@@ -73,6 +73,7 @@ Light Mode
     Simply open index.html in any modern web browser.
 
 ### Project Structure
+```text
 app/
 ├── images/                # Custom logos, sketches, and favicons
 ├── styles.css             # Main stylesheet with CSS Variables
