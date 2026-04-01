@@ -1,19 +1,24 @@
 ## Table of contents
-
 -[Screenshot](#screenshot)
--[Features]()
--[Build]()
--[Screenshots]
--[Getting-Started]
--[Structure]
--[Learning]
--[Author]
+-[Features](#features)
+-[Link](#links)
+-[Build](#built-with)
+-[Screenshots](#screenshots)
+-[Getting-Started](#getting-started)
+-[Structure](#project-structure)
+-[Learning](#what-i-learned)
+-[Author](#author)
+
 # Base-test-home-page
 this repo was made mainly just for learning and getting hands on experience. this event is fictional and made for fun.
 
 Techkon 2026 - Event Webpage
 
 A modern, responsive, and fully semantic event landing page built with HTML5, CSS3, and Vanilla JavaScript. This project was developed as part of the "Design an Event Webpage" challenge on GeeksforGeeks, with a focus on accessibility, custom branding, and a developer-centric "Dark Mode" aesthetic.
+
+### Links
+
+- Live Site URL: [Live](https://arjunsharma-bit.github.io/semantic-ui-lab/)
 
 ### Features
 
@@ -46,32 +51,35 @@ A modern, responsive, and fully semantic event landing page built with HTML5, CS
     Inkscape (Linux) - Vector logo design and SVG asset management.
 
 ### Screenshots
-Dark Mode	Light Mode
+Dark Mode
+![](./images/Preview/Default1.png)
+
+![](./images/Preview/Default2.png)
+
+Light Mode
+![](./images/Preview/Light1.png)
+
+![](./images/Preview/Light2.png)
 	
 ### Getting Started
 
     Clone the repository:
-    Bash
-
-    git clone https://github.com/ArjunSharma-bit/techcon-2026.git
+    git clone https://github.com/ArjunSharma-bit/semantic-ui-lab.git
 
     Navigate to the project directory:
-    Bash
-
     cd techcon-2026
 
     Open the project:
     Simply open index.html in any modern web browser.
 
 ### Project Structure
-techcon-2026/
-├── images/  
-         # Custom logos, sketches, and favicons
-├── styles.css        # Main stylesheet with CSS Variables
-├── script.js         # Theme logic, Modal, and Scroll behavior
-└── index.html        # Semantic HTML structure
+app/
+├── images/                # Custom logos, sketches, and favicons
+├── styles.css             # Main stylesheet with CSS Variables
+├── script.js              # Theme logic, Modal, and Scroll behavior
+└── index.html             # Semantic HTML structure
 
-What I Learned
+### What I Learned
 
     How to use CSS Variables to manage complex themes efficiently.
 
@@ -81,6 +89,5 @@ What I Learned
 
     Handling asynchronous-style UI updates (Modals) with Vanilla JS.
 
-Author
-
+### Author
 Arjun Sharma 
