@@ -72,6 +72,16 @@ header h1 {
     font-weight: 400;
 }
 
+.nav-logo {
+    height: 70px;
+    width: auto;
+    transition: transform 0.1s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
 nav ul {
     display: flex;
     grid-template-columns: 1fr auto 1fr;
@@ -215,7 +225,7 @@ textarea {
     background: var(--card-bg);
     border: 1px solid var(--border);
     padding: 12px;
-    color: white;
+    color: rgb(117, 116, 116);
     border-radius: 4px;
 }
 
