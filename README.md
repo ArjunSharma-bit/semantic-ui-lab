@@ -13,7 +13,7 @@
 this repo was made mainly just for learning and getting hands on experience. this event is fictional and made for fun.
 
 Techkon 2026 - Event Webpage
-
+![](./images/logo/logo-image.png)
 A modern, responsive, and fully semantic event landing page built with HTML5, CSS3, and Vanilla JavaScript. This project was developed as part of the "Design an Event Webpage" challenge on GeeksforGeeks, with a focus on accessibility, custom branding, and a developer-centric "Dark Mode" aesthetic.
 
 ### Links
