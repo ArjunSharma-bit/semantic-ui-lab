@@ -1,4 +1,17 @@
-## Table of contents
+![](./images/logo/logo-image.png)
+
+
+
+
+
+
+
+
+
+
+
+
+## ![](./images/logo/logo.png)able of contents
 - [Screenshot](#screenshot)
 - [Features](#features)
 - [Link](#links)
@@ -9,11 +22,11 @@
 - [Learning](#what-i-learned)
 - [Author](#author)
 
-# Base-test-home-page
+# semantic-ui-lab
 this repo was made mainly just for learning and getting hands on experience. this event is fictional and made for fun.
 
-Techkon 2026 - Event Webpage
-![](./images/logo/logo-image.png)
+![](./images/logo/logo.png)echkon 2026 - Event Webpage
+
 A modern, responsive, and fully semantic event landing page built with HTML5, CSS3, and Vanilla JavaScript. This project was developed as part of the "Design an Event Webpage" challenge on GeeksforGeeks, with a focus on accessibility, custom branding, and a developer-centric "Dark Mode" aesthetic.
 
 ### Links
