@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Techkon</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" href="./images/logo/logo-white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="boss-health-container" style="display: none;">
+        <div id="boss-health-text">FAST FORMS SYSTEM <span id="health-percentage">100%</span></div>
+        <div id="boss-health-bar"></div>
+    </div>
+
+    <header>
+        <h1>Welcome to Techkon 2026</h1>
+        <p>The Ultimate Technology and Programming Conference</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="about">
+            <h2>About the Event</h2>
+            <p>TechCon 2025 brings together semi-leading minds in programming,
+                tech, and innovation. Join us for a day of insightful talks, hands-on workshops,
+                and an opportunity to network with fellow geeks and professionals form around the world</p>
+        </section>
+        <section id="schedule" class="schedule">
+            <h2>Event Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Session</th>
+                        <th>Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><time datetime="9:00"></time>9:00 AM</td>
+                        <td>Opening Keynote</td>
+                        <td>Byomesh Bakshi</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="10:30"></time>10:30 AM</td>
+                        <td>Understanding AI and Machine Learning</td>
+                        <td>Nobody</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="1:00"></time>1:00 PM</td>
+                        <td>Lunch Break</td>
+                        <td>BYOL</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2:00"></time>2:00 PM</td>
+                        <td>Exploring the Future of Speaking Two languages</td>
+                        <td>Dr.Shitty(South Indian)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="speakers" class="speakers">
+            <h2>Featured Speakers</h2>
+            <div class="speaker-grid">
+                <article class="speaker-card">
+                    <img src="./images/tintin.jpg" alt="Byomesh Bakshi Profile pic">
+                    <h3>Byomesh Bakshi</h3>
+                    <p>Wannabe Tintin</p>
+                </article>
+                <article class="speaker-card">
+                    <img src="./images/oar2-2.jpg" alt="Dr. Shitty Profile pic">
+                    <h3>Dr. Shitty</h3>
+                    <p>Bilingual Expert</p>
+                </article>
+                <article class="speaker-card">
+                    <img src="./images/mr.Maro.jpg" alt="Mr. Mathondkar Profile pic">
+                    <h3>Mr. Mathondkar</h3>
+                    <p>Competitive Sperm Donor</p>
+                </article>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            
+            <form id="t-form" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Email@example.com"><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required minlength="10"></textarea><br><br>
+                
+                <button type="submit" id="evil-submit" class="phase-1-btn">Send</button>
+            </form>
+            
+        </section>
+        <button id="backToTop" title="Go to Top"><img src="./images/impArrow.png" alt="arrow illustration"></button>
+    </main>
+    <footer>
+        <p>2026 Arjun Sharma. All rights reserved.</p>
+    </footer>
+    
+    <div id="win-screen" class="win-screen">
+        <h1 id="win-message">Thank You!</h1>
+        <p style="color: #b0b0b0; margin-bottom: 24px; font-size: 1.2rem;">Your form has been submitted successfully through our standard process.</p>
+        <button id="retry-btn">Submit Another</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
