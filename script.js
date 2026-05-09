@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 const topBtn = document.getElementById('backToTop');
-=======
-const contactform = document.getElementById('contact-form');
-const topBtn = document.getElementById('backToTop');
-const modal = document.getElementById("thank-you-modal");
-const span = document.querySelector(".close-btn");
-const modalCloseBtn = document.getElementById("modalCloseBtn");
->>>>>>> 3af5898bcbf71423a98720abad48b8f3a01f4f05
+
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
@@ -45,8 +38,6 @@ themeToggle.addEventListener('click', () => {
     }
     localStorage.setItem('theme', theme)
 })
-
-<<<<<<< HEAD
 
 //THE FORM 
 
@@ -295,7 +286,6 @@ if (evilButton) {
     evilButton.classList.add('evil-btn');
     evilButton.addEventListener('mouseover', runAway);
 }
-=======
 // FORM & MODAL LOGIC
 contactform.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -329,4 +319,3 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
->>>>>>> 3af5898bcbf71423a98720abad48b8f3a01f4f05
